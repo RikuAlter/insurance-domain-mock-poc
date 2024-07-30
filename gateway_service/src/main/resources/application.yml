@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gateway_service
+server:
+  port: 8080
+okta:
+  oauth2:
+    issuer: https://dev-2p38p5kyg5h5gqtn.us.auth0.com/
+    audience: https://insurance-management-api/
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
